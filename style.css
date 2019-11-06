@@ -6,15 +6,15 @@ img{
     /*Styles the image of me into a circle*/
     border-style: none;
     border-radius: 100%;
-    filter: grayscale(0);
+    filter: invert(0);
 }
-.container:hover{
+img:hover{
     /*If user hovers over image, it turns black and white*/
-    filter: grayscale(1);
+    filter: invert(1);
     border-style: none;
     border-radius: 100%;
     transition: background-size 0.3s ease;
-    filter: grayscale(1);
+    filter: invert(1);
     transition: background size 0.3s ease;
 }
 body{
