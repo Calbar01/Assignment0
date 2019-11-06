@@ -16,3 +16,7 @@ img :hover{
     filter: grayscale(1);
     transition: background size 0.3s ease;
 }
+body{
+    /*Aligns all objects within body to the center*/
+    text-align: center;
+}
