@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
 }
-h1{
+h1,
+h2{
     /*Creates the font style, and size, font found from google fonts */
     font-family: 'Sunshiney', cursive;
 }
@@ -11,6 +12,7 @@ img{
     border-style: none;
     border-radius: 100%;
     filter: invert(0);
+
 }
 img:hover{
     /*If user hovers over image, it turns black and white*/
@@ -27,11 +29,12 @@ body{
 }
 .CV{
     /*Creates a margin between the body and the footer to seperate the two */
-    margin-bottom: 0;
+    padding-top: 50px;
     width: 100%;
-    height: 700px;
+    height: 100px;
     float: left;
     text-align: center;
+    font-size: 20px;
 }
 nav{
     margin: 10px;
