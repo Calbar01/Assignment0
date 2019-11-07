@@ -52,13 +52,14 @@ li{
 }
 li a{
     text-decoration: none;
-}
-li a:hover{
-    /*Whilst hovering over the navigation links, the letters turn red*/
-    color: red;
-}
-li.main a{
     font-weight: bold;
     color: silver;
     font-family: 'Sunshiney', cursive;
 }
+li a:hover{
+    /*Whilst hovering over the navigation links, the letters turn red*/
+    color: red;
+    font-size: 15pt;
+}
+
+
