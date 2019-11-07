@@ -27,7 +27,7 @@ body{
     /*Aligns all objects within body to the center*/
     text-align: center;
 }
-.CV{
+footer.CV{
     /*Creates a margin between the body and the footer to seperate the two */
     padding-top: 50px;
     width: 100%;
