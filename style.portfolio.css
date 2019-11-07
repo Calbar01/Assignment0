@@ -1,4 +1,71 @@
-.centre{
-    text-align: centre;
+/*Header Section*/
+.top-column{
+    text-align: center;
     font-family: 'Sunshiney', cursive;
+    font-size: 1.5em;
+}
+header{
+    height: 75px;
+    width: 100%;
+}
+h1,
+h3,
+p{
+    font-family: 'Sunshiney', cursive;
+}
+p{
+    font-weight: bold;
+}
+
+
+/*Navigation Bar*/
+nav{
+    margin: 10px;
+}
+
+ul{
+    overflow: auto;
+    list-style-type: none;
+}
+
+li{
+    /*Styles the navigation bar to seperate the links */
+    height: 25px;
+    float: left;
+    margin-right: 0px;
+    border-right: 1px solid #aaaaaa;
+    padding: 0 20px;
+}
+li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: silver;
+    font-family: 'Sunshiney', cursive;
+}
+li a:hover{
+    /*Whilst hovering over the navigation links, the letters turn red*/
+    color: red;
+    font-size: 15pt;
+}
+
+/*Columns*/
+.Left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: red;
+}
+.Right{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: blue;
+}
+
+.Bottom{
+    margin-bottom: 0;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: yellow;
 }
