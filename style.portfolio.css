@@ -1,4 +1,7 @@
 /*Header Section*/
+*{
+    background-color: darkslateblue;
+}
 .top-column{
     text-align: center;
     font-family: 'Sunshiney', cursive;
@@ -53,13 +56,11 @@ li a:hover{
     width: 50%;
     height: 100%;
     float: left;
-    background-color: red;
 }
 .Right{
     width: 50%;
     height: 100%;
     float: right;
-    background-color: blue;
 }
 
 .Bottom{
@@ -67,5 +68,4 @@ li a:hover{
     width: 100%;
     float: left;
     text-align: center;
-    background-color: yellow;
 }
