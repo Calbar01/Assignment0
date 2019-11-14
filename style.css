@@ -1,11 +1,14 @@
+/*Styles everything with no margin and no padding*/
 *{
     margin: 0;
     padding: 0;
 }
+/*Gives the html 'h1' element the correct font and colour*/
 h1{
     font-family: 'Sunshiney', cursive;
     color: silver;
 }
+/*Same applies here except with h2 and h3*/
 h2,
 h3{
     /*Creates the font style, and size, font found from google fonts */
@@ -30,6 +33,7 @@ h3{
 }
 body{
     /*Aligns all objects within body to the center*/
+    /*Help from source: https://www.quackit.com/html/codes/html_background_image_codes.cfm*/
     text-align: center;
     width: 100%;
     background-image: url("background.jpg");
@@ -40,6 +44,7 @@ body{
 }
 footer.icon{
     /*Creates a margin between the body and the footer to seperate the two */
+    /*Found from starter code on NILE */
     padding-top: 25px;
     width: 100%;
     height: 100px;
@@ -49,6 +54,8 @@ footer.icon{
 }
 
 /*Icons*/
+/*Styles the icons to be black, but changes colour if the user hovers over them*/
+/*Used source:https://ionicons.com/*/
 .twitter{
     color: black;
 }
@@ -62,7 +69,8 @@ footer.icon{
     color: blueviolet;
 }
 
-
+/*Navigation bar*/
+/*Starter code found from NILE*/
 nav{
     margin: 10px;
 }

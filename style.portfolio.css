@@ -1,6 +1,8 @@
 
 /*Header Section*/
 .top-column{
+    /*Styles the top column class, giving it a font as well as centring the positon*/
+    /*Found from starter code on NILE*/
     text-align: center;
     font-family: 'Sunshiney', cursive;
     font-size: 1.5em;
@@ -10,12 +12,16 @@ header{
     width: 100%;
 }
 body{
+    /*Creates a background image, and covers the header section*/
+    /*Found help from: https://www.quackit.com/html/codes/html_background_image_codes.cfm*/
     width: 100%;
     background-image: url("background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*This section styles all text within the page*/
 h1,
 .title{
     color: silver;
@@ -29,7 +35,10 @@ p{
 }
 
 
+
+
 /*Navigation Bar*/
+/*Same as navigation bar CSS in 'index.html' found from NILE*/
 nav{
     margin: 10px;
 }
@@ -60,6 +69,8 @@ li a:hover{
 }
 
 /*Columns*/
+/*Creates three main columns, and positions them in thirds, each column hs been given a certain %.*/
+/*Help found from NILE*/
 .Left{
     width: 50%;
     height: 100%;
