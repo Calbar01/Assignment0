@@ -1,7 +1,5 @@
+
 /*Header Section*/
-*{
-    background-color: darkslateblue;
-}
 .top-column{
     text-align: center;
     font-family: 'Sunshiney', cursive;
@@ -9,6 +7,9 @@
 }
 header{
     height: 75px;
+    width: 100%;
+}
+body{
     width: 100%;
 }
 h1,

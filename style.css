@@ -26,6 +26,7 @@ h2{
 body{
     /*Aligns all objects within body to the center*/
     text-align: center;
+    width: 100%;
 }
 footer.CV{
     /*Creates a margin between the body and the footer to seperate the two */
