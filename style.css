@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
 }
-h1,
+h1{
+    font-family: 'Sunshiney', cursive;
+    color: silver;
+}
 h2,
 h3{
     /*Creates the font style, and size, font found from google fonts */
     font-family: 'Sunshiney', cursive;
+    color: black;
 }
 .me{
     /*Styles the image of me into a circle*/
@@ -28,6 +32,11 @@ body{
     /*Aligns all objects within body to the center*/
     text-align: center;
     width: 100%;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 footer.icon{
     /*Creates a margin between the body and the footer to seperate the two */
