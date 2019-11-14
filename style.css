@@ -38,10 +38,22 @@ footer.icon{
     text-align: center;
     font-size: 20px;
 }
-footer.icon{
-    text-decoration: none;
+
+/*Icons*/
+.twitter{
+    color: black;
+}
+.twitter:hover{
     color: blue;
 }
+.github{
+    color: black;
+}
+.github:hover{
+    color: blueviolet;
+}
+
+
 nav{
     margin: 10px;
 }
