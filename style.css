@@ -1,21 +1,20 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: darkslateblue;
 }
 h1,
 h2{
     /*Creates the font style, and size, font found from google fonts */
     font-family: 'Sunshiney', cursive;
 }
-img{
+.me{
     /*Styles the image of me into a circle*/
     border-style: none;
     border-radius: 100%;
     filter: invert(0);
 
 }
-img:hover{
+.me:hover{
     /*If user hovers over image, it turns black and white*/
     filter: invert(1);
     border-style: none;
