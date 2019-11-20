@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+.whole{
+    display: grid;
+    grid-template-rows: auto 1fr 200px;
+}
+
 /*Gives the html 'h1' element the correct font and colour*/
 h1{
     font-family: 'Sunshiney', cursive;
@@ -41,6 +46,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
     
 }
 footer.icon{
@@ -102,4 +108,9 @@ li a:hover{
     font-size: 15pt;
 }
 
+@media (max-width:400px ){
+    .h1{
+        color: red;
+    }
+}
 
