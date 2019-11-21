@@ -115,7 +115,7 @@ li a:hover{
 
 
 /*If the resolution is that of an iPad Pro, it restyles everything to the middle*/
-@media (max-width: 1365px) {
+@media (max-width: 1024px) {
     .container{
         padding-top: 20em;
     }
