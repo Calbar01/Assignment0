@@ -7,6 +7,9 @@
     display: grid;
     grid-template-rows: auto 1fr 200px;
 }
+.container{
+    padding: none;
+}
 
 /*Gives the html 'h1' element the correct font and colour*/
 h1{
@@ -26,6 +29,7 @@ h3{
     border-style: none;
     border-radius: 100%;
     filter: invert(0);
+
 
 }
 .me:hover{
@@ -106,9 +110,26 @@ li a:hover{
     font-size: 15pt;
 }
 
-@media (max-width: 500px) {
-    .me{
-        border-radius: 50%;
+
+
+
+
+/*If the resolution is that of an iPad Pro, it restyles everything to the middle*/
+@media (max-width: 1365px) {
+    .container{
+        padding-top: 20em;
     }
+    h1{
+        font-size: 50pt;
+    }
+    h2,
+    h3{
+        font-size: 30pt;
+    }
+    .me{
+        height: 35%;
+        width: 35%;
+    }
+
 }
 
